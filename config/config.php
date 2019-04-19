@@ -324,6 +324,8 @@ $CDASH_GITHUB_APP_ID = null;
 // as a GitHub App.
 $CDASH_GITHUB_PRIVATE_KEY = dirname(__FILE__) . '/github.pem';
 
+$CDASH_DEFAULT_PROJECT = '';
+
 /* DO NOT EDIT AFTER THIS LINE */
 $localConfig = dirname(__FILE__) . '/config.local.php';
 if ((strpos(__FILE__, 'config.local.php') === false) && file_exists($localConfig)) {
